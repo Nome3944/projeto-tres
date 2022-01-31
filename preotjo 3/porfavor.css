@@ -1,0 +1,408 @@
+
+.logodaloja{
+    height:150px;
+    width:600px;
+}
+.logofica{
+    display: flex;
+    margin-left: 50%;
+    margin-right:50%;
+}
+.textoameio{
+    font-size:30px;
+    color:rgb(8, 8, 8);
+    display: flex;
+    justify-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.textoameio2{
+    font-size:30px;
+    color:rgb(8, 8, 8);
+    display: flex;
+    justify-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.RECEITASFICAM{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.receitaimg{
+    
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+      }
+
+ .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  .imagemepico{
+      
+      border-radius: 0%;
+      height:200px;
+      width: 50px;
+      border: 3px solid #fff;
+      size:20%;
+      margin-bottom: 50px;
+      margin-right:500px;
+      padding-right:60px;
+      padding-left:60px;
+  }
+  .nomepratos{
+      display: flex;
+      justify-content: center;
+      font-size:40px;
+      color:black;
+      padding-left:50px;
+  }
+  .promo2{
+    display: flex;
+    justify-content:center;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 15px;
+    margin-right:0%;
+    margin-left:35%;
+    height:150px;
+    width:600px;
+    margin-bottom:50px;
+  }
+  .promo2:hover {background-color:rgb(109, 50, 36)}
+.promo2:active {
+    background-color: rgb(255, 11, 11);
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+  }
+  .container_precos{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    grid-template-columns:50% 50%;
+    grid-template-columns:50% 50%;
+}
+
+.caloiro{
+    
+    border:white 3px;
+    width: 300px;
+    height:400px;
+    box-shadow: 0 4px 8px 0 rgba(233, 222, 222, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right:0px;
+    margin-left:0px;
+    padding-left:px;
+    margin-bottom:120px;
+    margin-top:120px;
+    margin-right:0px;
+
+}
+.promo3{
+    margin-top:0px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(128, 104, 61);
+    border: none;
+    border-radius: 15px;
+    margin-right:15px;
+    margin-left:50px;
+    margin-bottom:5px;
+  }
+  .promo4{
+    margin-top:0px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(128, 104, 61);
+    border: none;
+    border-radius: 15px;
+    margin-right:15px;
+    margin-left:50px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+  
+
+
+
+
+
+.preco{
+    font-size:70px;
+    justify-content:center;
+    margin-left:80px;
+    margin-top:0px;
+    color:black;
+    margin-bottom: 5px;
+}
+.imagemepico{
+      
+    border-radius: 100%;
+    height:140px;
+    width: 50px;
+    border: 3px  #fff;
+    size:20%;
+    margin-bottom: 50px;
+    margin-right:500px;
+    padding-right:60px;
+    padding-left:60px;
+    margin-top:50px;
+}
+.nomepratos2{
+    display: flex;
+    justify-content: center;
+    font-size:30px;
+    color:black;
+    padding-left:50px;
+}
+.uiuipratos{
+    display:flex;
+    justify-content: center;
+    border-radius:60%
+}
+.ingre{
+    font-size:20px;
+    padding-right:30px;
+    padding-left:80px
+}
+.preps{
+    font-size:40px;
+    justify-content: center;
+    margin-top:40px;
+
+}
+.botao{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.promo{
+    display: flex;
+    
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 15px;
+    margin-right:0;
+    margin-left:0px;
+    height:100px;
+    width:200px;
+    margin-right:300px;
+    margin-bottom: 100px;
+    
+}
+.promo:hover {background-color:rgb(109, 50, 36)}
+.promo:active {
+    background-color: rgb(255, 11, 11);
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+
+}
+.login{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 50% 50%;
+    border:white 3px;
+    width: 600px;
+    height:700px;
+    box-shadow: 0 4px 8px 0 rgba(104, 69, 69, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right:0px;
+    margin-left:30%;
+
+
+}
+.ponhaoemail{
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    font-size: 50px;
+}
+  .figurascomentarios {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  .comentariosachoeu{
+      display: table-row;
+      justify-content: center;
+      grid-template-rows: 25% 25% 25% 25% 25%;
+      margin-top:30px;
+      margin-left:50px;
+      border-color: black;
+      border-width: 50px;
+      background-color: rgb(243, 243, 243);
+      box-shadow: 0 4px 8px 0 rgba(104, 69, 69, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom:px;
+      
+    
+  }
+  .comentario{
+      display:flex;
+      font-size: 40px;
+      margin-left:140px;
+      
+
+  }
+  .comentario2{
+      display:flex;
+      font-size:30px;
+      margin-left:180px;
+      margin-bottom:60px;
+      padding-right:60px;
+  }
+  .imgcometario{
+      height:130px;
+      width:120px;
+      border-radius:50%;
+      margin-left:30px;
+      border-color: black;
+      border-width: 3px;
+  }
+  .footer{
+      display:grid;
+      justify-content: center;
+      grid-template-rows: 25% 25% 25% 25%;
+      grid-template-columns: 50% 50%;
+      margin-left:40%;
+      margin-top:150px;
+      border-color: gray;
+      border-width: 10px;
+      margin-bottom:50px;
+  }
+
+  .footertexto{
+      display:flex;
+      font-size: 10px;
+      color: gray;
+  }
+  .imgdofooter{
+      display:flex;
+      justify-content: start;
+      margin-left:50px;
+      height: 50px;
+  }
+  .naobotao{
+      margin-left:20px;
+  }
+
+  
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    margin-top:50px;
+    
+  
+
+  }
+.FOOTER{
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3%;
+    margin-left: 0px;
+    
+  }
+  .PEFIXE{
+      margin-left:50px;
+      margin-right:10%;
+      width:150px;
+      
+  }
+  .fixeheader{
+    background-color: rgb(252, 236, 206);
+    height:100%;
+}
+
+.container_header{
+
+    width: 100%;
+}
+.flexok{
+    display:flex;
+}
+.container_esquerda{
+    margin-left:0px
+}
+.container_centro{
+    display: grid;
+    grid-template-rows: 50% 100px;
+    grid-template-columns: 55% 45%;
+    width:fit-content;
+}
+.containercarrinhoachoeu{
+    
+    margin-right:30px;
+
+}
+.imgfixe{
+    margin-left:100px;
+    border-radius: 10%
+}
+.botaofixe{
+    margin-top:100px;
+    display:flex;
+    justify-content: space-around;
+    margin-left:100px;
+}
+.promo3:hover {background-color:rgb(167, 71, 47)}
+.promo3:active {
+    background-color: rgb(255, 11, 11);
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+  }
+.ficameiologin{
+    display: flex;
+    justify-content: center;
+}
+.promo4:hover {background-color:rgb(167, 71, 47)}
+.promo4:active {
+    background-color: rgb(255, 11, 11);
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+}
+  
